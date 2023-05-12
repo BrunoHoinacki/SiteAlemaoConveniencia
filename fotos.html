@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alemao conveniencia, do interior para a capital!</title>
+	<style>
+	/* Importando a fonte do Google Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos da Navegação */
+nav {
+  background-color: #179c28;
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+nav li {
+  margin-left: 7px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Estilos do Logo */
+.logoAlemao {
+  text-align: center;
+  justify-content: center;
+}
+
+.logoAlemao img {
+  width: 200px;
+  padding: 10%;
+  border-radius: 50%;
+}
+
+/* Estilos do Banner */
+.banner {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.308)), url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner .texto {
+  color: #fff;
+}
+
+.banner .titulo {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.banner .sub_titulo {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.banner .botoes {
+  display: flex;
+  justify-content: center;
+}
+
+.banner .overlay {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 16px 50px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #fff;
+  color: #179c28;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.banner .overlay:hover {
+  background-color: #179c28;
+  color: #fff;
+}
+
+/* Estilos da seção de fotos */
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f1f1f1;
+}
+
+.fotos h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.fotos img {
+  width: calc(33.3333% - 20px);
+  margin-bottom: 20px;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #179c28;
+  color: #fff;
+  padding: 60px;
+  }
+	</style>
+</head>
+<body>
+    <nav>
+	<div class="logo">
+        <a href="index.html"> Alemao Conveniencia </a>
+    </div>
+
+    <p class="logoAlemao">
+		<img src="logoAlemao.png" style="
+		width: 200px;
+		padding: 10%;
+		border-radius: 50%;">
+	</p>
+    <ul>
+        <li> <a href="index.html"> Home </a> </li>
+        <li> <a href="sobre.html"> Sobre </a> </li>
+        <li> <a href="fotos.html"> Fotos </a> </li>
+    </ul>
+
+</nav>
+<section class="banner">
+    <div class="texto">
+       <h1 class="titulo">Do interior para a capital,</h1>
+       <h2 class="sub_titulo">trazendo atendimento familiar e cordialidade!</h2>
+       <div class="botoes">
+           <button class="overlay" onclick="window.open('https://wa.me/555198266914', '_blank')" >whatsapp</button>
+       </div>
+    </div>
+</section>
+
+<section class="fotos">
+	<h1>Galeria de fotos</h1>
+	<img src="foto1.jpg">
+	<img src="foto2.jpg">
+	<img src="foto3.jpg">
+	<img src="foto4.jpg">
+	<img src="foto5.jpg">
+	<img src="foto6.jpg">
+</section>
+
+<footer>
+    <div class="container">
+        <div class="coluna">
+            <h3>Informações de contato</h3>
+            <p>Endereço: Avenida Gamal Abdel Nasser, 425 - Zone Norte, Porto Alegre/RS</p>
+            <p>Telefone: (51) 99826-6914</p>
+            <p>E-mail: alemaoconvenienciadpm@gmail.com</p>
+        </div>
+        <div class="coluna">
+            <h3>Redes sociais</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/alemaoconvenienciapdm/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/alemaoconvenienciapdm/">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="coluna">
+            <h3>Links úteis</h3>
+            <ul>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
