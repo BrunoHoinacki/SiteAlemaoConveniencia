@@ -1,3 +1,15 @@
+# Site Alemão Conveniência
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/BrunoHoinacki/SiteAlemaoConveniencia/blob/main/LICENSE) 
+
+## Sobre o projeto
+
+Este repositório é dedicado ao site de minha empresa, o qual eu venho atualizando frequentemente.
+
+## Linguagens utilizadas:
+
+-HTML
+-CSS
+-JavaScript
 
 # Autor
 
