@@ -1,5 +1,4 @@
-# Site Alemão Conveniência
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/BrunoHoinacki/SiteAlemaoConveniencia/blob/main/LICENSE) 
+# Site Alemão Conveniência 
 
 ## Sobre o projeto
 
