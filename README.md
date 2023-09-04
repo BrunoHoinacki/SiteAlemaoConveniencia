@@ -5,7 +5,7 @@ https://brunohoinacki.github.io/SiteAlemaoConveniencia/
 
 ## Sobre o projeto
 
-Este repositório é dedicado ao site de minha empresa, o qual eu venho atualizando frequentemente.
+Este repositório é dedicado ao site de um empreendimento que eu iniciei!
 
 ## Linguagens utilizadas:
 
